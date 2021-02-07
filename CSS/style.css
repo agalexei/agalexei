@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: #111111;
+    font-size: 48px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: medium;
+    padding: 16px;
+    white-space: nowrap;
+    }
+    
+    p {
+        color: #111111;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 16px;
+        margin: 0;
+        letter-spacing: 0.1em;
+        line-height: 1.6;
+        margin-bottom: 16px;
+        display: inline-block;
+        }
+    
+    h4 {color: #f3f3f3;
+        font-size: 24px;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight:bold;
+        padding: 4px;
+        white-space: nowrap;
+        background-blend-mode: multiply;
+        }
+
+    h3 {
+        font-size: 24px;
+        font-family: 'JetBrains Mono', monospace;
+        font-weight:bold;
+        padding: 4px;
+        white-space: nowrap;
+        background-blend-mode: multiply;
+    }
+    
+    h5 {color: #f3f3f3;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 16px;
+        padding: 4px;
+        font-weight:normal;
+        }
+    
+    h6 {color: #111111;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 16px;
+        }
+label {
+    color: #111111;
+    font-size: 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: normal;
+    white-space: nowrap;
+    }
+
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 12%;
+    background-color: #F3F3F3;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+aside {
+    grid-column: span 4;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.logo {
+    width: 100%;
+    /* Set this logo container to flex so we can center/middle the logo within */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-placeholder {
+    border-radius: 50%;
+    /* Set to arbitrary fixed values for demo purposes only */
+    width: 200px;
+    height: 200px;
+    margin: 2rem;
+}
+
+.title {
+    width: 100%;
+    padding: 1rem;
+}
+
+.tiles {
+    grid-column: 5 / 13;
+    margin: 1.5rem;
+    border: 1px solid #efefef;
+}
+.tiles-text {
+    grid-column: 5 / 13;
+    margin: 1.5rem;
+    border: 1px solid #efefef;
+}
+
+@media only screen and (max-width: 720px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .aside,
+    .tiles {
+        grid-column: span 4;
+        margin: 0;
+    }
+    .tile-casestudy {
+        max-width: 50%;
+    }
+}
+
+.tile {
+    width: 100%;
+    height: 320px;
+    /* We only need margin on the bottom */
+    margin-bottom: 1.5rem;
+    /* set tile to flex so we can position it's child banner better */
+    display: flex;
+    align-items: flex-end;
+    /* background image is the best way to handle images in cases like this */
+    background: url("../images/cs1.png") no-repeat center;
+    background-size: 100% auto;
+    position: relative;
+}
+.tile2 {
+    width: 100%;
+    height: 320px;
+    /* We only need margin on the bottom */
+    margin-bottom: 1.5rem;
+    /* set tile to flex so we can position it's child banner better */
+    display: flex;
+    align-items: flex-end;
+    /* background image is the best way to handle images in cases like this */
+    background: url("../images/cs2.png") no-repeat center;
+    background-size: 100% auto;
+}
+.tile3 {
+    width: 100%;
+    height: 320px;
+    /* We only need margin on the bottom */
+    margin-bottom: 1.5rem;
+    /* set tile to flex so we can position it's child banner better */
+    display: flex;
+    align-items: flex-end;
+    /* background image is the best way to handle images in cases like this */
+    background: url("../images/cs3.png") no-repeat center;
+    background-size: 100% auto;
+}
+
+.box {
+    background-color: #4AD5CA;
+    width: 36px;
+    height: 48px;
+    position: relative;
+    z-index: -2;
+    left: 208px;
+    bottom: 72px;
+}
+
+.tile-banner1 {
+    width: 100%;
+    height: 6rem;
+    padding: 2rem;
+    color: white;
+    background-color: rgba(65, 217, 177, 0.8);
+}
+.tile-banner2 {
+    width: 100%;
+    height: 6rem;
+    padding: 2rem;
+    color: white;
+    background-color:rgba(255, 20, 147, 0.8);
+}
+.tile-banner3 {
+    width: 100%;
+    height: 6rem;
+    padding: 2rem;
+    color: white;
+    background-color:rgba(205, 100, 237, 0.8);
+}
+.tile-img {
+    display: flex;
+    max-height:500px;
+    max-width: 500px;
+    padding: 24px;
+    justify-content: center;
+    margin: 0 auto !important;
+}
+.tile-title {
+    display: flex;
+    padding: 24px;
+}
+.tile-casestudy {
+    display: flex;
+    justify-content: center;
+    max-width:553px;
+}
+
+.button1 {
+    background-color: #111111;
+    color: #f3f3f3;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    padding-left:2px;
+    padding-right:2px;
+    }
+
+.button2 {
+    background-color: #111111;
+    color: #f3f3f3;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    padding-left:2px;
+    padding-right:2px;
+    }
+
+li {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    color: #111111;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+a:link {
+    color:#111111;
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    a:visited {
+    color:#111111;
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    a:hover {
+    color: #111111;
+    text-decoration: none;
+    background-color: transparent;
+    }
+
+    a:active {
+    color: #111111;
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    .contact {
+        grid-column: 5 / 13;
+        width: 60%;
+        margin: 0 auto;
+        padding: 50px 0;
+        z-index: 99;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+    .contact-info {
+        grid-column: 5 / 13;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+    }
+    .contact-info .textField {
+        grid-column: 5 / 13;
+        width: 100%; 
+        height: 50px;
+        border: 1px solid #111111;
+        box-sizing: border-box;
+        background-color: transparent;
+        padding: 15px 15px;
+        margin-bottom: 15px;
+        font-family: 'JetBrains Mono', monospace;
+        color: #111111; 
+        font-size: 16px;
+    }
+    .contact-info .messageField {
+        grid-column: 5 / 13;
+        height: 200px;
+    }
+    .contact-info .submitButton {
+        grid-column: 5 / 13;
+        background-color: #111111;
+        color: white;
+        height: 48px;
+        font-weight: medium;
+        font-size: 16px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    .textField {
+        resize: vertical;
+    }
+
+    #status {
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        padding: 8px;
+        color: #111111;
+        font-family: 'JetBrains Mono', monospace;
+        margin: 0 auto;
+    }
+    #status.success {
+        background-color:#4AD5CA;
+        animation: status 4s ease forwards;
+    }
+    #status.error {
+        background-color:#d5664a;
+        color: white;
+        font-family: 'JetBrains Mono', monospace;
+        animation: status 4s ease forwards;
+    }
+
+
+    @keyframes status {
+        0%{
+            opacity:1;
+            pointer-events: all;
+        }
+        90%{
+            opacity:1;
+            pointer-events: all;
+        }
+        100%{
+            opacity:0;
+            pointer-events: none;
+        }
+    }
+
+    #my-form {
+        width: 80%;
+    }
+
+    .highlight1 {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 60%, rgba(74,213,202,1) 63%, rgba(74,213,202,1) 83%, rgba(255,255,255,0) 87%);
+        width: 88px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .highlight2 {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 60%, rgba(74,213,202,1) 63%, rgba(74,213,202,1) 83%, rgba(255,255,255,0) 87%);
+        width: 54px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .highlight3 {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 60%, rgba(74,213,202,1) 63%, rgba(74,213,202,1) 83%, rgba(255,255,255,0) 87%);
+        width: 74px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .highlight4 {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 60%, rgba(74,213,202,1) 63%, rgba(74,213,202,1) 83%, rgba(255,255,255,0) 87%);
+    }
