@@ -170,9 +170,6 @@ li {
     .navbar {
         background-color: rgba (255, 255, 255, .8)
     }
-    .tile-img {
-        max-height:400px;
-    }
 }
 
 .tile {
@@ -237,11 +234,11 @@ li {
 }
 .tile-img {
     display: flex;
-    max-height:500px;
-    max-width: 500px;
+    max-height:450px;
     padding: 24px;
     justify-content: center;
     margin: 0 auto !important;
+    object-fit:scale-down;
 }
 .tile-title {
     display: flex;
