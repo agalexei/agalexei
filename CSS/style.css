@@ -234,14 +234,11 @@ li {
 }
 .tile-img {
     display: flex;
-    padding: 50%;
+    max-height:500px;
+    max-width: 500px;
+    padding: 24px;
     justify-content: center;
     margin: 0 auto !important;
-    object-fit: cover;
-    background-image: url(../images/me.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
 }
 .tile-title {
     display: flex;
