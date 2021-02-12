@@ -136,7 +136,7 @@ li {
 .logo-placeholder {
     border-radius: 50%;
     width: 200px;
-    height: 200px;
+    height: 8%;
     margin: 2rem;
 }
 
@@ -183,6 +183,9 @@ li {
         left: 0;
         padding: 2rem 0 !important;
         display: flex;
+    }
+    .li {
+        font-size: 4vw !important;
     }
 }
 
