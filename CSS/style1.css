@@ -7,17 +7,20 @@
 }
 h1 {
     color: #111111;
-    font-size: 48px;
+    font-size: calc(2rem + 1vw);
     font-family: 'JetBrains Mono', monospace;
     font-weight: medium;
     padding: 16px;
     white-space: nowrap;
     }
-    
+h2 {
+    font-size: 2rem;
+    font-family: 'JetBrains Mono', monospace;
+}
 p {
     color: #111111;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0;
     letter-spacing: 0.1em;
     line-height: 1.6;
@@ -98,16 +101,8 @@ hr {
 .colour7 {
     background-color: #14A270;
 }
-.colour9 {
+.colour8 {
     background-color: #44C09B;
-}
-.splash {
-    background-image: url(../images/casestudy1/background.svg);
-    height: 50%;
-    background-size: 50vh;
-    background-position: center;
-    border-radius: 0 !important;
-    background-repeat: no-repeat;
 }
 
 
