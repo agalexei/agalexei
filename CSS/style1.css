@@ -77,3 +77,37 @@ hr {
     display: block; 
 }
 
+.colour1 {
+    background-color: #74e3c9;
+}
+.colour2 {
+    background-color: #24A87C;
+}
+.colour3 {
+    background-color: #549494;
+}
+.colour4 {
+    background-color: #c4c4c4;
+}
+.colour5 {
+    background-color: #484848;
+}
+.colour6 {
+    background-color: #ffffff;
+}
+.colour7 {
+    background-color: #14A270;
+}
+.colour9 {
+    background-color: #44C09B;
+}
+.splash {
+    background-image: url(../images/casestudy1/background.svg);
+    height: 50%;
+    background-size: 50vh;
+    background-position: center;
+    border-radius: 0 !important;
+    background-repeat: no-repeat;
+}
+
+
