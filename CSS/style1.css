@@ -82,27 +82,35 @@ hr {
 
 .colour1 {
     background-color: #74e3c9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .colour2 {
     background-color: #24A87C;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .colour3 {
     background-color: #549494;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .colour4 {
     background-color: #c4c4c4;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .colour5 {
     background-color: #484848;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .colour6 {
     background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .colour7 {
     background-color: #14A270;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .colour8 {
     background-color: #44C09B;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 a:link {
@@ -127,4 +135,32 @@ a:link {
     color: #f3f3f3;
     background-color: transparent;
     text-decoration: none;
+    }
+
+    .jumbotron {
+        background-image: url(../images/casestudy1/cer-background@2x.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        height: calc(100vh - 5vh);
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 !important;
+        }
+
+    .display-4 {
+        color:#f3f3f3;
+        text-align: center;
+        background-color: rgba(65, 217, 177, 0.8)
+        }
+
+    .lead {
+        color:#f3f3f3;
+        text-align: left;
+        background-color:#111111;
+        }
+    dd {
+        color: #111111;
     }
