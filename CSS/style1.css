@@ -148,6 +148,7 @@ a:link {
         align-items: center;
         justify-content: center;
         margin: 0 !important;
+        background-color:none !important;
         }
 
     .display-4 {
@@ -161,6 +162,3 @@ a:link {
         text-align: left;
         background-color:#111111;
         }
-    dd {
-        color: #111111;
-    }
