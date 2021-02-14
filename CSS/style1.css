@@ -105,4 +105,26 @@ hr {
     background-color: #44C09B;
 }
 
+a:link {
+    color:#f3f3f3;
+    background-color: transparent;
+    text-decoration: none;
+    }
 
+    a:visited {
+    color:#f3f3f3;
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    a:hover {
+    color: #c4c4c4 !important;
+    text-decoration: none !important;
+    background-color: transparent;
+    }
+
+    a:active {
+    color: #f3f3f3;
+    background-color: transparent;
+    text-decoration: none;
+    }
