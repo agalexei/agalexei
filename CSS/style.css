@@ -72,7 +72,7 @@ h1 {
         font-family: 'JetBrains Mono', monospace;
         font-weight:bold;
         padding: 4px;
-        white-space: nowrap;
+        white-space: normal;
         background-blend-mode: multiply;
         position: relative;  
     }
