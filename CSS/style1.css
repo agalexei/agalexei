@@ -4,6 +4,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'JetBrains Mono', monospace;
+    margin-left: 0 !important;
 }
 h1 {
     color: #111111;
@@ -63,7 +64,7 @@ h6 {color: #111111;
 
         .navbar {
             position: fixed;
-            width: 100%;
+            width: 100vw;
             background-color: #111111 !important;
             background-size: cover;
             z-index: 10;
@@ -72,6 +73,10 @@ h6 {color: #111111;
             margin-left: auto;
             margin-right: 0 !important;
           }
+          .navbar-right {
+              text-align: right;
+          }
+
 .container {
     display:block;
 }
@@ -162,3 +167,4 @@ a:link {
         text-align: left;
         background-color:#111111;
         }
+
