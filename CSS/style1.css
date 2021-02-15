@@ -12,11 +12,12 @@ h1 {
     font-family: 'JetBrains Mono', monospace;
     font-weight: medium;
     padding: 16px;
-    white-space: nowrap;
+    white-space: normal;
     }
 h2 {
     font-size: 2rem;
     font-family: 'JetBrains Mono', monospace;
+    white-space: normal !important;
 }
 p {
     color: #111111;
@@ -34,7 +35,7 @@ h4 {color: #f3f3f3;
     font-family: 'JetBrains Mono', monospace;
     font-weight:bold;
     padding: 4px;
-    white-space: nowrap;
+    white-space: normal;
     background-blend-mode: multiply;
     }
 
@@ -43,7 +44,7 @@ h3 {
     font-family: 'JetBrains Mono', monospace;
     font-weight:bold;
     padding: 4px;
-    white-space: nowrap;
+    white-space: normal;
     background-blend-mode: multiply;
     position: relative;  
 }
@@ -69,62 +70,64 @@ h6 {color: #111111;
             background-size: cover;
             z-index: 10;
           }
-          .navbar-nav {
-            margin-left: auto;
-            margin-right: 0 !important;
-          }
           .navbar-brand {
               color: #f3f3f3 !important;
+              z-index:11;
           }
           .navbar-text {
             color: #f3f3f3 !important;
+            z-index:11;
         }
 
-
-.container {
-    display:block;
-}
 
 
 .colour1 {
     background-color: #74e3c9;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding:16px;
+    text-align: center;
 }
 .colour2 {
     background-color: #24A87C;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding:16px;
+    text-align: center;
 }
 .colour3 {
     background-color: #549494;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding:16px;
+    text-align: center;
 }
 .colour4 {
     background-color: #c4c4c4;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding:16px;
+    text-align: center;
 }
 .colour5 {
     background-color: #484848;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding:16px;
+    text-align: center;
 }
 .colour6 {
     background-color: #ffffff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding:16px;
+    text-align: center;
 }
 .colour7 {
     background-color: #14A270;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding:16px;
+    text-align: center;
 }
 .colour8 {
     background-color: #44C09B;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding:16px;
+    text-align: center;
 }
 
 a:link {
