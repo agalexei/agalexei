@@ -63,8 +63,8 @@ h6 {color: #111111;
     }
 
         .navbar {
-            position: fixed;
-            width: 100vw;
+            position:relative;
+            width: 100%;
             background-color: #111111 !important;
             background-size: cover;
             z-index: 10;
