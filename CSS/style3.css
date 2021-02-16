@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'JetBrains Mono', monospace;
+    margin-left: 0 !important;
+}
+h1 {
+    color: #111111;
+    font-size: calc(2rem + 1vw);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: medium;
+    padding: 16px;
+    white-space: normal;
+    }
+h2 {
+    font-size: 2rem;
+    font-family: 'JetBrains Mono', monospace;
+    white-space: normal !important;
+}
+p {
+    color: #111111;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    letter-spacing: 0.1em;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    display: inline-block;
+    }
+
+h4 {color: #f3f3f3;
+    font-size: 24px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight:bold;
+    padding: 4px;
+    white-space: normal;
+    background-blend-mode: multiply;
+    }
+
+h3 {
+    font-size: 24px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight:bold;
+    padding: 4px;
+    white-space: normal;
+    background-blend-mode: multiply;
+    position: relative;  
+}
+
+h5 {color: #f3f3f3;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    padding: 4px;
+    font-weight:normal;
+    }
+
+h6 {color: #111111;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 16px;
+    }
+
+        .navbar {
+            position:relative;
+            width: 100%;
+            background-color: #111111 !important;
+            background-size: cover;
+            z-index: 10;
+          }
+          .navbar-brand {
+              color: #f3f3f3 !important;
+              z-index:11;
+          }
+          .navbar-text {
+            color: #f3f3f3 !important;
+            z-index:11;
+        }
+
+
+
+.colour1 {
+    background-color: #7732D9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding:16px;
+    text-align: center;
+}
+.colour2 {
+    background-color: #F4B88E;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding:16px;
+    text-align: center;
+}
+.colour3 {
+    background-color: #3E38F2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding:16px;
+    text-align: center;
+}
+.colour4 {
+    background-color: #8C42D0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding:16px;
+    text-align: center;
+}
+.colour5 {
+    background-color: #F3F4F6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding:16px;
+    text-align: center;
+}
+.colour6 {
+    background-color: #D8BDF2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding:16px;
+    text-align: center;
+}
+.colour7 {
+    background-color: #5632D9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding:16px;
+    text-align: center;
+}
+.colour8 {
+    background-color: #3E38F2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding:16px;
+    text-align: center;
+}
+
+a:link {
+    color:#f3f3f3;
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    a:visited {
+    color:#f3f3f3;
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    a:hover {
+    color: #c4c4c4 !important;
+    text-decoration: none !important;
+    background-color: transparent;
+    }
+
+    a:active {
+    color: #f3f3f3;
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    .jumbotron {
+        background-image: url(../images/casestudy3/background@2x.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        height: calc(100vh - 5vh);
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 !important;
+        background-color:none !important;
+        }
+
+    .display-4 {
+        color:#f3f3f3;
+        text-align: center;
+        background-color: rgba(205, 100, 237, 0.8)
+        }
+
+    .lead {
+        color:#f3f3f3;
+        text-align: left;
+        background-color:#111111;
+        }
+
