@@ -180,3 +180,9 @@ a:link {
         background-color:#111111;
         }
 
+        img {
+            background-color: none;
+            border: 0px !important;
+            box-shadow: none;
+            border-radius:0px;
+        }
