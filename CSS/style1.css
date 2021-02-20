@@ -149,6 +149,10 @@ left:50%;
 transform: translate( -50%, -50%);
 }
 
+.embed-responsive {
+  height: calc(100vh - 8vh) !important;
+}
+
 .hero {
   position: relative;
 }
