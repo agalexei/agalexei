@@ -7,41 +7,69 @@
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/stylecer.css">
+        <script src="js/index.js" defer></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="CSS/style3.css">
         <link rel="stylesheet" href="CSS/animate.min.css">
         <link rel="stylesheet" href="CSS/animate.compat.css">
         <link rel="stylesheet" href="CSS/animate.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
-<body>
-    <header class="site-header fixed-top bg-black border-bottom border-dark">
-        <nav class="navbar navbar-light bg-black justify-content-between">
-            <a class="navbar-brand" href="index.html">Ara GLM.</a>
-            <a class="navbar-text" href="portfolio.html">
-            Back to Portfolio
-            </a>
-          </nav>
-    </header>
+<body data-spy="scroll" data-target="#navbarSupportedContent">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Ara GLM.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#part1">Intro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#part2">User Persona</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#part3">Style Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#part4">Heuristic Evaluation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#part5">Wireframes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#part6">Prototype</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#part7">Conclusion</a>
+            </li>
+          </ul>
+            <a class="btn btn-light my-2 my-sm-0" href="portfolio.html">Back</a>
+        </div>
+      </nav>
 
-<main class="content container">
-    <div class="jumbotron jumbotron-fluid ml-0">
-        <div class="container justify-content-center">
-        <div class="row">
-          <h2 class="display-4 col-lg-10 justify-content-center">FoodByMe App</h2>
+      <!--header-->
+      <div class="mid">
+        <img class="embed-responsive" src="images/casestudy3/background@2x.png" alt="background">
+        <div class="hero text-center">
+          <h2 class="text-light display-4 font-weight-bold container text-center mx-auto">FoodByMe App</h2>
+          <p class="text-light mx-auto bg-black text-center lead">Foodbyme is curated by online influencers and bloggers, so users know they can rest assured that wherever they decide to go and explore will be an amazing photo-op experience.</p>
         </div>
-          <p class="lead col-lg-8 justify-content-center">Foodbyme is curated by online influencers and bloggers, so users know they can rest assured that wherever they decide to go and explore will be an amazing photo-op experience.</p>
-        </div>
-      </div>
     </div>
+</header>
 
-<div class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0s">
-    <dl class="text-md-center mb-5 justify-content-center">
-        <div class="container">
-        <div class="row">
-        <div class="col-md-4">
-            <dt class="font-weight-light text-secondary">Client</dt>
+ <!--about-->
+ <main>
+
+    <div class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0s">
+      <dl class="text-md-center mb-5 justify-content-center">
+          <div class="container">
+          <div class="row">
+          <div class="col-md-3">
+              <dt class="font-weight-light text-secondary">Client</dt>
             <dd>Startup App Developper</dd>
         </div>
         <div class="col-md-4">
@@ -57,46 +85,54 @@
     </dl>
     </div>
 
-
-    <div class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0s">
-        <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <h2>The Problem</h2>
+    <section class="about py-5">
+        <div class="row align-items-center container my-5 mx-auto">
+          <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+            <h6>Part 1</h6>
+            <h2>The Problem</h2>
                 <p>First-time travellers like to travel safely and don’t want to plan too much for their trip. 
                 </p>
                 <p>
                 These users want to find memorable places to go and relax and take amazing photos of their experience and share them online.    
             </p>
-            </div>
-                <div class="col-lg-10">
-                    <h2>The Solution</h2>
-                    <p class="mb-4">We offer an app that allows users to find locations nearby and filter out the tourist traps. 
+        </div>
+        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+          <img class="img-fluid" src="images/casestudy3/1.png" alt="screenshot" style="max-height:100vh">
+        </div>
+      </div>
+    </section>
+
+    <section class="about py-5">
+        <div class="row align-items-center container my-5 mx-auto">
+          <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+            <img class="img-fluid" src="images/casestudy3/2.png" alt="screenshot" style="max-height:100vh">
+          </div>
+          <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+            <h2>The Solution</h2>
+                    <p>We offer an app that allows users to find locations nearby and filter out the tourist traps. 
                     </p>
                     <p>
                         Foodbyme is curated by online influencers and bloggers, so users know they can rest assured that wherever they decide to go and explore will be an amazing photo-op experience.  
                     </p>
                 </div>
             </div>
-        </div>
+          </section>
+
                 <div class="wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="1.2s">
-                            <div class="row">
-                                <div class="col-lg-6 justify-content-right ml-16">
-                                <img src="images/casestudy3/images@2x.png" class="img-thumbnail" alt="images">
+                            <div class="row align-items-center container my-5 mx-auto">
+                                <div class="col-12 justify-content-right ml-16 bg-black">
+                                <img src="images/casestudy3/images@2x.png" class="img-thumbnail" alt="images" style="max-height:100vh">
                             </div>
-                            <div class="row">
-                                <div class="col-lg-6 justify-content-right ml-16">
-                                <img src="images/casestudy3/11.png" class="img-thumbnail" alt="screen" style="max-height:100vh">
-                            </div>
-                        </div>
                     </div>
-                    <div class="wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="1.2s"></div>
-                    <div class="row">
-                        <div class="col-md-6 justify-content-right ml-16">
-                        <img src="images/casestudy3/emily.png" class="img-thumbnail" alt="persona">
-                    </div>
-                            <div class="col-md-6 justify-content-center">
-                                <h2>User Persona</h2>
+
+        <section id="part2" class="cameras py-5">
+            <div class="row align-items-center container my-5 mx-auto">
+              <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <img class="img-fluid" src="images/casestudy3/emily.png" alt="persona">
+              </div>
+              <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                <h6>Part 2</h6>
+                <h2>User Persona</h2>
                                 <h4>Name</h4>
                                 <p>Emily Fields</p>
                                 <br>
@@ -129,75 +165,98 @@
                                     </li>
                                 </ul>
                                 <br>
+                              </div>
+                            </div>
+                          </section>
+
+                          <section class="photos py-5">
+                            <div class="col mx-auto align-items-center my-5">
+                            <div class="heading text-center pt-5 bg-white">
+
+                                <img class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5" src="images/casestudy3/8.png" alt="screenshot" style="max-width:25vw">
+                                <img class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5" src="images/casestudy3/3.png" alt="screenshot" style="max-width: 25vw">
                             </div>
                         </div>
-                        </div>
+                    </div>
+                    </section>
 
-                        <div class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.4s">
-                            <container class="py-5 ml-16 container">
-                                <div class="row">
-                                <h2 class="col-md-8 d-flex p-2">Ideation</h2>
+<!--Cards-->
+<section id="part3" class="cameras py-5">
+    <div class="row align-items-center container my-5 mx-auto">
+      <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+        <h6>Part 3</h6>
+        <h2>Ideation</h2>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-3 py-5 ml-4">
-                                        <q>I like...</q>
+                                <section class="photos py-5">
+                                    <div class="col mx-auto align-items-center my-5">
+                                    <div class="heading text-center pt-5">
+                                      <h2 class="font-weight-bold pb-5 text-light">
+                                <div class="row mx-auto justify-content-center align-items-center text-center container">
+                                    <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
+                                        <img class="img-fluid w-75" src="images/casestudy3/6.png" alt="subscribe" style="max-width:25vw">
+                                  <h3 class="font-weight-bold pt-4">I like...</h3>
                                     </div>
-                                    <div class="col-md-3 py-5 ml-4">
-                                        <q>I wish...</q>
+                                    <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
+                                        <img class="img-fluid w-75" src="images/casestudy3/8.png" alt="subscribe" style="max-width:25vw">
+                                        <h3 class="font-weight-bold pt-4">I wish...</h3>
                                     </div>
-                                    <div class="col-md-3 py-5 ml-4">
-                                        <q>What if...?</q>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <p>
-                                            Working on my own, brainstorming was a challenge. 
-                                            I had to revisit interviewees to help generate different ideas for my brainstorming. 
-                                        </p>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <img src="images/casestudy3/3.png" alt="screenshot" style="max-width:25vw">
+                                    <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
+                                        <img class="img-fluid w-75" src="images/casestudy3/4.png" alt="subscribe" style="max-width:25vw">
+                                        <h3 class="font-weight-bold pt-4">What if...?</h3>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="images/casestudy3/ideation@2x.png" alt="ideation" style="max-width: 75vw">
-                                    </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-lg-8">
-                                        <h2>
-                                            Hig Impact, Low Complweity
+                                    <div class="one col-lg-10 col-md-3 col-12 w-25 m-2 mx-auto">
+                                    <p>
+                                        Working on my own, brainstorming was a challenge. 
+                                        I had to revisit interviewees to help generate different ideas for my brainstorming. 
+                                    </p>
+                                </div>
+        
+                                </div>
+                                </div>
+                              </section>
+
+                              <section class="about py-5">
+                                <div class="row align-items-center container my-5 mx-auto">
+                                    <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                                    <h2>Hig Impact, Low Complexity
                                         </h2>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-8">
+                                    <div class="row align-items-center container my-5 mx-auto">
+                                    <div class="one col-lg-3 col-md-3 col-12 w-25 m-2">
                                            <p>
                                             1. What if we could “discover” recommended places based on our location?
                                            </p>
+                                        </div>
+                                        <div class="one col-lg-2 col-md-3 col-12 w-25 m-2">
                                            <p>
                                             2. I wish an itinerary could be created for me based on recommendations
                                            </p> 
+                                        </div>
+                                        <div class="one col-lg-2 col-md-3 col-12 w-25 m-2">
                                            <p>
                                             3. What if we can create itineraries based on people’s interests
                                            </p>
+                                        </div>
+                                        <div class="one col-lg-2 col-md-3 col-12 w-25 m-2">
                                            <p>4. I wish Instagram could recommend cute cafes
                                         </p>
-                                        </div>
                                     </div>
+        
                                 </div>
-                            </container>
-                            </div>
+                                </div>
+                              </section>
 
-                            <div class="wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.6s">
-                                <container class="container py-5 justify-content-center">
-                                    <div class="row">
-                                        <h2 class="col-md-6 display-2 pb-2 justify-content-center ml-8">Style Guide</h2>
+                              <section id="part3" class="about py-5">
+                                <div class="row align-items-center container my-5 mx-auto">
+                                    <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                                    <h6>Part 3</h6>
+                                    <h2>Style Guide</h2>
                                         </div>
-                                        <div class="row">
-                                        <h2 class="col-md-8 mb-4 ml-4">Colours</h2>
+                                        <div class="row align-items-center container my-5 mx-auto">
+                                            <h3 class="col-md-8 mb-4 ml-4">Colours</h3>
                                         </div>
                                         <div class="row mb-4">
                                             <div class="col-md-3 pt-2 pb-5 px-3 text-white ml-4 text-uppercase">
@@ -243,9 +302,9 @@
                                         </container>
                                     </div>
 
-<container class="container pb-5">
-    <div class="row">
-    <h2 class="col-md-6 mb-4 ml-8">Typography</h2>
+                                    <container class="container pb-5">
+                                        <div class="row">
+                                        <h3 class="col-md-6 mb-4 ml-8">Typography</h3>
     </div>
     <div class="row">
     <table class="table table-responsive-md ml-4 col-lg-12">
@@ -304,94 +363,73 @@
 </container>
 </div>
 
-<div class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.8s">
-    <container class="justify-content-center">
-        <div class="container">
-            <div class="row">
-            <div class="col-lg-6 justify-content-center">
+<section id="part4" class="cameras py-5">
+    <div class="row align-items-center container my-5 mx-auto">
+      <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+        <img class="img-fluid" src="images/casestudy3/11.png" alt="screenshot" style="max-height:100vh">
+      </div>
+      <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+        <h6>Part 4</h6>
                 <h2>Prototyping</h2>
-                </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 justify-content-center ml-0">
-                        <img src="images/casestudy3/5.png" alt="prototype" style="height: 50vh">
-                    </div>
-                        <div class="col-lg-6 justify-content-center ml-0">
-                            <img src="images/casestudy3/6.png" alt="prototype" style="height: 50vh">
-                    </div>
-                </div>
-                <div class="row">
-                <div class="col-lg-8 px-16">
+            </div>
+        </div>
+        <div class="row align-items-center container my-5 mx-auto">
+            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
                 <p>The app icon, splash screens and onboarding (through the sign up process) was created through prototyping.
                 </p>
                 <p>Selecting interests to optimise the generation of recommendations and the dashboard was also created.
                 </p>
                 </div>
-            </div>
+                <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                    <img class="img-fluid" src="images/casestudy3/10.png" alt="prototype" style="max-height:100vh">
+                  </div>
         </div>
-            </container>
-            </div>
+</section>
 
-<div class="wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.8">
-    <container>
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-8">
-            <h2 class="display-2 pb-2 justify-content-center">Guerilla Testing</h2>
-            </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 justify-content-center">
-                    <p>Through guerrilla testing, users found navigating the app to be logical and simple.
+<section id="part5" class="tutorials py-5">
+    <div class="row align-items-center container my-5 mx-auto">
+        <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+        <h6>Part 5</h6>
+        <h2>Guerilla Testing</h2>
+<p>Through guerrilla testing, users found navigating the app to be logical and simple.
                     </p>
                     <p>I found there was a high importance for both the user and Foodbyme to fix the uploading of a profile photo icon as users  had failed to previously recognise the correct button to upload a profile photo</p>
                 </div>
-                <div class="col-lg-6 justify-content-center">
-                    <img src="images/casestudy3/12.png" alt="screenshot" style="max-height:100vh">
-                </div>
-            </div>
-            </container>
-            </div>
-                        <div class="wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="1.4s">
-                        <container class="justify-content-center">
-                            <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-lg-8">
-                            <h2 class="display-2 pb-2">Next Steps</h2>
-                                </div>
+                <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                    <img class="img-fluid" src="images/casestudy3/12.png" alt="screenshot" style="max-height:100vh">
+                    </div>
+            </section>
+
+                <section id="part6" class="cameras py-5">
+                    <div class="row align-items-center container my-5 mx-auto">
+                      <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                        <h6>Part 6</h6>
+                                <h2>Next Steps</h2>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-8">
-                        <p>1. Iterate profile page
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8">
-                        <p>2. Create feed for uploaded photos and ideas
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8">
-                        <p>3. Iterate map feature</p>
                         </div>
-                    </div>
-                </div>
-                        </container>
+                        <div class="row align-items-center container my-5 mx-auto">
+                            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
+                                <p>1. Iterate profile page
+                                </p>
+                                <p>
+                                    2. Create feed for uploaded photos and ideas
+                                </p>
+                                <p>                            3. Iterate map feature</p>
+                                </div>
+
+                        </div>
+                </section>
                        
-</div>
-</div>
-</main>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="   crossorigin="anonymous"></script>
-<script src="JS/wow.min.js"></script>
-<script src="JS/index.js"></script>
-<script src="JS/wow.js"></script>
-<script>
-new WOW().init();
-</script>
-
-</body>
-</html>
+            </div>
+            </div>
+            </main>
+            
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script>
+            new WOW().init();
+            </script>    
+            
+            </body>
+            </html>
