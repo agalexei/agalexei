@@ -6,9 +6,8 @@
     font-family: 'JetBrains Mono', monospace;
 }
 .jumbotron {
-    background-image: url(../images/background.png);
     height: 100%;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     border-radius: 0 !important;
     background-color: #111111;
@@ -30,12 +29,18 @@
 
 .intro {
     padding-top: 0;
+    padding-bottom: 24px;
 }
 .intro img {
     width: 224px;
 }
 .intro-page {
     background-color:#111111;
+}
+
+.intro-title {
+    color:#f3f3f3;
+    font-size: 48px;
 }
 
 h1 {
