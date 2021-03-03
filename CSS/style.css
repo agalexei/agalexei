@@ -404,6 +404,7 @@ a:link {
     li:hover {
         color: #313131;
         text-transform: uppercase;
+        font-weight: bold;
     }
 
     .textField {
