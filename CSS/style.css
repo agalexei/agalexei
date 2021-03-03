@@ -206,6 +206,7 @@ li {
     background: url("../images/cs1.png") no-repeat center;
     background-size: 100% auto;
     position: relative;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .tile2 {
     width: 100%;
@@ -215,6 +216,7 @@ li {
     align-items: flex-end;
     background: url("../images/cs2.png") no-repeat center;
     background-size: 100% auto;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .tile3 {
     width: 100%;
@@ -224,6 +226,7 @@ li {
     align-items: flex-end;
     background: url("../images/cs3.png") no-repeat center;
     background-size: 100% auto;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .box {
@@ -265,6 +268,11 @@ li {
     margin: 0 auto !important;
     object-fit:scale-down;
 }
+
+.img {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
 .tile-title {
     display: flex;
     padding: 24px;
