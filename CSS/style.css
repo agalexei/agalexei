@@ -375,6 +375,37 @@ a:link {
         text-transform: uppercase;
     }
 
+    .submitButton {
+        background-color: #111111 !important;
+        height: 32px;
+        font-weight: medium;
+        font-size: 16px;
+        cursor: pointer;
+        text-transform: uppercase;
+        padding: 8px;
+        color: #f3f3f3 !important;
+        border: none;
+        text-align: center;
+    }
+
+    .submitButton:hover {
+        background-color: #313131 !important;
+        height: 32px;
+        font-weight: medium;
+        font-size: 16px;
+        cursor: pointer;
+        text-transform: uppercase;
+        padding: 8px;
+        color: #f3f3f3 !important;
+        border: none;
+        text-align: center;
+    }
+
+    li:hover {
+        color: #313131;
+        text-transform: uppercase;
+    }
+
     .textField {
         resize: vertical;
     }
