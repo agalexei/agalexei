@@ -224,7 +224,7 @@ li {
     margin-bottom: 1.5rem;
     display: flex;
     align-items: flex-end;
-    background: url("../images/cs3.png") no-repeat center;
+    background: url("../images/bmh@2x.png") no-repeat center;
     background-size: 100% auto;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -258,7 +258,7 @@ li {
     height: 6rem;
     padding: 2rem;
     color: white;
-    background-color:rgba(205, 100, 237, 0.8);
+    background-color:rgba(250,149,8, 0.8);
 }
 .tile-img {
     display: flex;
