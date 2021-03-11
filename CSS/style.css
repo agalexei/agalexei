@@ -295,6 +295,10 @@ li {
     padding-right:2px;
     }
 
+.button1:hover {
+    text-transform: uppercase;
+}
+
 .button2 {
     background-color: #111111;
     color: #f3f3f3;
