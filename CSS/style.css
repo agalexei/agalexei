@@ -203,7 +203,7 @@ li {
     margin-bottom: 1.5rem;
     display: flex;
     align-items: flex-end;
-    background: url("../images/cs1.png") no-repeat center;
+    background: url("../images/casestudy5/background@2x.png") no-repeat center;
     background-size: 100% auto;
     position: relative;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -214,7 +214,7 @@ li {
     margin-bottom: 1.5rem;
     display: flex;
     align-items: flex-end;
-    background: url("../images/cs2.png") no-repeat center;
+    background: url("../images/cs1.png") no-repeat center;
     background-size: 100% auto;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -251,7 +251,7 @@ li {
     height: 6rem;
     padding: 2rem;
     color: white;
-    background-color:rgba(255, 20, 147, 0.8);
+    background-color:rgba(22,15,75, 0.8);
 }
 .tile-banner3 {
     width: 100%;
