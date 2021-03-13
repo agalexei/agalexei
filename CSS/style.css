@@ -443,7 +443,6 @@ a:link {
         animation: status 4s ease forwards;
     }
 
-
     @keyframes status {
         0%{
             opacity:1;
@@ -492,4 +491,5 @@ a:link {
     .cs:hover {
         margin-left: 24px;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-      }
+        transform: scale(1.05);
+    }

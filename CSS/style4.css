@@ -295,6 +295,10 @@ text-decoration: none;
   border-radius: 8px;
 }
 
+.one:hover {
+  transform: scale(1.1);
+}
+
 /* tutorials */
 
 .about {
