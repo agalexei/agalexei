@@ -466,7 +466,7 @@ blockquote {
 }
 
 .tag.rounded {
-  display: block;
+  display:block;
   margin-bottom: 9px;
   padding: 9px 18px;
   -webkit-box-flex: 0;
@@ -858,7 +858,7 @@ blockquote {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
-  align-items: flex-end;
+  align-items: center;
   grid-auto-columns: 1fr;
   grid-column-gap: 36px;
   grid-row-gap: 36px;
@@ -884,6 +884,10 @@ blockquote {
 
 .work-link {
   text-decoration: none;
+}
+
+.work-link:hover {
+  text-decoration:underline;
 }
 
 .work-title {
