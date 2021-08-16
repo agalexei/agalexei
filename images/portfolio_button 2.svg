@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="55" viewBox="0 0 154 55">
+  <defs>
+    <filter id="PORTFOLIO" x="0" y="0" width="154" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Portfolio-2" data-name="Portfolio" transform="translate(-468 -776)">
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="130" height="7" transform="translate(480 803)" fill="#4ad5ca" opacity="0.85"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="130" height="31" transform="translate(480 784)" fill="rgba(255,255,255,0)"/>
+    <g transform="matrix(1, 0, 0, 1, 468, 776)" filter="url(#PORTFOLIO)">
+      <text id="PORTFOLIO-3" data-name="PORTFOLIO" transform="translate(12 32)" fill="#111" font-size="24" font-family="JetBrains Mono" font-weight="700"><tspan x="0" y="0">PORTFOLIO</tspan></text>
+    </g>
+  </g>
+</svg>
