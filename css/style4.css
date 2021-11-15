@@ -92,7 +92,7 @@ html {
 
 /* Navbar */
 .navbar {
-  background: #010101;
+  background: #010101 !important;
   padding: 1rem 8rem;
   z-index: 100;
 }
